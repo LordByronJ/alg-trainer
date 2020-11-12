@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Options() {
+function Options(props) {
   return (
       <div>
-          Options page
+          Options page {props.config.algset}
     </div>
   );
 }
